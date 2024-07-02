@@ -18,3 +18,4 @@ for all msg types
 
 4. Create beans of implemented interfaces from 3.<br>
 5. Starter will invoke nessesary implemention of MsgWrapperProcessor<T> for correspond msg type.
+6. If starter will not find nessary implementaion it will use default implementation (print msg to log).

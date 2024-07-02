@@ -13,6 +13,7 @@ To add to spring-boot project:<br>
         url: localhost:9092<br>
    
 3. Implement interface MsgWrapperProcessor<T> <br>
+for all msg types
 
 
 4. Create beans of implemented interfaces from 3.<br>
